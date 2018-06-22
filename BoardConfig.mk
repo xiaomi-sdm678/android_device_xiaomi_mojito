@@ -9,6 +9,8 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/mojito
 
+BUILD_BROKEN_DUP_RULES := true
+
 # A/B
 BOARD_USES_RECOVERY_AS_BOOT := true
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
