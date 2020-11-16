@@ -25,5 +25,8 @@ PRODUCT_COPY_FILES += \
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
+# Platform
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
+
 # Inherit the proprietary files
 -include vendor/xiaomi/mojito/BoardConfigVendor.mk
