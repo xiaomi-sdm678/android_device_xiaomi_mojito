@@ -59,6 +59,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.xiaomi_sm6150
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
