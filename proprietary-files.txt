@@ -1,4 +1,4 @@
-# All unpinned blobs are pulled from Xiaomi/violet/violet:10/QKQ1.190915.002/V12.0.5.0.QFHINXM:user/release-keys
+# All unpinned blobs are pulled from Xiaomi/violet/violet:10/QKQ1.190915.002/V12.5.1.0.QFHCNXM:user/release-keys
 
 # ACDB - Finetuned
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb|35d5cb7e84e1270bd0605f597f9d96bb97872920
@@ -245,8 +245,8 @@ vendor/firmware/CAMERA_ICP.elf
 # Consumer IR
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 
-# DRM L1
-vendor/lib64/liboemcrypto.so
+# DRM L1 - from violet user 10 QKQ1.190915.002 V12.0.5.0.QFHINXM release keys
+vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
 
 # Fingerprint
 vendor/lib64/com.fingerprints.extension@2.0.so
