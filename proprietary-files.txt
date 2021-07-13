@@ -35,6 +35,10 @@ system_ext/lib64/libsdsprpc_system.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.dsp@1.0.so
 
+# Bluetooth aptX - from redfin 11 RQ3A.210705.001 release-keys
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+
 # Camera
 system_ext/etc/qvr/cfg/339/0/65536/mtp855.txt
 system_ext/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml
