@@ -37,5 +37,8 @@ TARGET_SCREEN_DENSITY := 420
 # Kernel
 TARGET_KERNEL_CONFIG := mojito_defconfig
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := mojito,sunny
+
 # Inherit from the proprietary version
 include vendor/xiaomi/mojito/BoardConfigVendor.mk
