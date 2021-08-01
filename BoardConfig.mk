@@ -9,5 +9,8 @@
 
 DEVICE_PATH := device/xiaomi/mojito
 
+# Assertation
+TARGET_OTA_ASSERT_DEVICE := mojito,sunny
+
 # Inherit the proprietary files
 -include vendor/xiaomi/mojito/BoardConfigVendor.mk
