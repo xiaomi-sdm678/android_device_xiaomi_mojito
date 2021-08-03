@@ -18,5 +18,9 @@ TARGET_BOOTLOADER_BOARD_NAME := sunny
 # Kernel
 TARGET_KERNEL_CONFIG := mojito_defconfig
 
+# Fstab
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
+
 # Inherit the proprietary files
 -include vendor/xiaomi/mojito/BoardConfigVendor.mk
