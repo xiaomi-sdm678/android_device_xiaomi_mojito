@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := mojito,sunny
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sunny
 
+# Display density
+TARGET_SCREEN_DENSITY := 440
+
 # Kernel
 TARGET_KERNEL_CONFIG := mojito_defconfig
 
