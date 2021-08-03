@@ -22,5 +22,8 @@ TARGET_KERNEL_CONFIG := mojito_defconfig
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
+
 # Inherit the proprietary files
 -include vendor/xiaomi/mojito/BoardConfigVendor.mk
