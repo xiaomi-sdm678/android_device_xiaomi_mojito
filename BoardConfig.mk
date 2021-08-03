@@ -9,6 +9,10 @@
 
 DEVICE_PATH := device/xiaomi/mojito
 
+# Audio
+USE_CUSTOM_AUDIO_POLICY := 1
+USE_XML_AUDIO_POLICY_CONF := 1
+
 # Assertation
 TARGET_OTA_ASSERT_DEVICE := mojito,sunny
 
