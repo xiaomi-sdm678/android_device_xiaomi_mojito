@@ -173,6 +173,16 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
 
+# Firmware from mojito-V12.0.5.0.RKGMIXM
+vendor/firmware/focaltech_ts_fw_samsung.bin
+vendor/firmware/ipa_fws.b00
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.b02
+vendor/firmware/ipa_fws.b03
+vendor/firmware/ipa_fws.b04
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt
+
 # Fingerprint from mojito-V12.0.5.0.RKGMIXM
 vendor/lib64/hw/fingerprint.fpc.default.so:vendor/lib64/hw/fingerprint.fpc.sm6150.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
