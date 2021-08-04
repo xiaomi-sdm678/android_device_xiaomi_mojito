@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 # Call the proprietary setup
-$(call inherit-product-if-exists, vendor/xiomi/mojito/mojito-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/mojito/mojito-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

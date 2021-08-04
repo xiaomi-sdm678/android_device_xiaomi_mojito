@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from mojito device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+# Inherit device configuration
+$(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
@@ -20,6 +20,7 @@ PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 #GAPPS
 TARGET_GAPPS_ARCH = arm64
