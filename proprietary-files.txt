@@ -282,9 +282,6 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# NFC
-vendor/lib/libsn100u_fw.so
-
 # Sensors
 vendor/bin/sensors.qti
 vendor/etc/init/init.vendor.sensors.rc
