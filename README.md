@@ -1,26 +1,28 @@
-Copyright (C) 2020 The LineageOS Project
-Copyright (C) 2020-2021 Paranoid Android.
+# Device Tree for Redmi Note 10
+The Redmi Note 10 (sunny / mojito) is a mid-range smartphone from Xiaomi.
 
-Device configuration for Xiaomi Redmi K30 / Poco X2
-=========================================
-
-The Xiaomi Redmi K30 / Poco X2 (codenamed _"phoenix / phoenixin"_) are mid range smartphones from Xiaomi's sub-brand Redmi and Poco, respectively.
-
-Redmi K30 was announced and released in December 2019, while Poco X2 was announced and released in February 2020.
+Xiaomi Redmi Note 10 released in March 16, 2021.
 
 ## Device specifications
 
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | Dual-core 2.2 GHz Kryo 470 Gold & Hexa-core 1.8 GHz Kryo 470 Silver
-Chipset | Qualcomm SDM730 Snapdragon 730G
-GPU     | Adreno 618
-Memory  | 6/8 GB RAM
-Shipped Android Version | 10
-Battery | Non-removable Li-Po 4500 mAh battery
-Storage | 64/128/256 GB
-Display | 1080 x 2400 pixels, 20:9 ratio, 6.67 inches, IPS LCD (~386 ppi density)
+| Device        | Xiaomi Redmi Note 10                         |
+| ------------: | :---------------------------------------------- |
+| SoC           | Qualcomm Snapdragon 678 (sm6150)                |
+| CPU           | 2x2.2GHz Kryo 460 Gold and 6x1.7Ghz Kryo 460 Silver    |
+| GPU           | Adreno 612                                      |
+| Memory        | 4GB / 6GB RAM (LPDDR4X)                         |
+| Shipped Android version | 11.0                                   |
+| Current Android version | 11.0                                  |
+| Storage       | 64GB / 128GB                                    |
+| Battery       | Non-removable Li-Po 5000 mAh                    |
+| Dimensions    | 160.5 x 74.5 x 8.3 mm (6.32 x 2.93 x 0.33 in)   |
+| Display       | 1080 x 2400 (19.5:9), 6.3 inch AMOLED           |
+| Rear camera 1 | 48 MP, f/1.8, 26mm (wide), 1/2.0", 0.8µm, PDAF  |
+| Rear camera 2 | 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0", 1.12µm   |
+| Rear camera 3 | 2 MP, f/2.4, (macro)                            |
+| Rear camera 4 | 2 MP, f/2.4, (depth)                            |
+| Front camera  | 13 MP, f/2.5, (wide), 1/3.06", 1.12µm           |
 
-## Device picture
 
-![Xiaomi Redmi K30](https://xiaomi-mi.com/uploads/CatalogueImage/redmi-k30%20(10)_17912_1577645087.jpg "Xiaomi Redmi K30 in blue")
+## Device Picture
+![Redmi Note 10](https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10/specs-header.png)
