@@ -40,6 +40,11 @@ TARGET_KERNEL_CONFIG := mojito_defconfig
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := mojito,sunny
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USES_MKE2FS := true
+
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
