@@ -27,7 +27,7 @@ fi
 
 set -e
 
-export DEVICE=phoenix
+export DEVICE=mojito
 export DEVICE_COMMON=sm6150-common
 export VENDOR=xiaomi
 

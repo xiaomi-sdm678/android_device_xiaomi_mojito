@@ -35,12 +35,11 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.phoenix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.phoenix.rc
+    $(LOCAL_PATH)/rootdir/etc/init.mojito.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mojito.rc
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm6150 \
-    libkeymaster_messages.vendor:64
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm6150
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -93,7 +92,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    PhoenixWifiOverlay
+    MojitoWifiOverlay
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/phoenix/phoenix-vendor.mk)
+$(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)

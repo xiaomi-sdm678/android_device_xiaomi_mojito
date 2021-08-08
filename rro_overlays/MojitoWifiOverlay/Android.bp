@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "PhoenixWifiOverlay",
-    theme: "PhoenixWifiOverlay",
+    name: "MojitoWifiOverlay",
+    theme: "MojitoWifiOverlay",
     sdk_version: "current",
     product_specific: true
 }
