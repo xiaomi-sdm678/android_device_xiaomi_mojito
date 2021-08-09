@@ -36,7 +36,6 @@
 #include "vendor_init.h"
 
 using android::base::GetProperty;
-using android::init::property_set;
 using std::string;
 
 void property_override(string prop, string value)
