@@ -33,9 +33,6 @@
          -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -33 V 93 H 33 V 0 H 0 Z</string>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">99px</dimen>
-
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
