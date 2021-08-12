@@ -35,7 +35,8 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     vbmeta_system \
     vendor \
-		vendor_boot
+    vendor_boot
+
 
 # Kernel
 TARGET_KERNEL_CONFIG := mojito_defconfig
