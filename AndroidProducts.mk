@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_alioth.mk
+    $(LOCAL_DIR)/lineage_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_alioth-user \
-    lineage_alioth-userdebug \
-    lineage_alioth-eng
+    lineage_mojito-user \
+    lineage_mojito-userdebug \
+    lineage_mojito-eng
