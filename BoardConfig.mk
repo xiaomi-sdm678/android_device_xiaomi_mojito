@@ -31,6 +31,9 @@ AB_OTA_PARTITIONS += \
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 

@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# WiFi
+PRODUCT_PACKAGES += \
+    MojitoWifiOverlay
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
