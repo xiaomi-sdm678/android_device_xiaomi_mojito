@@ -55,9 +55,8 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
+    <!-- <hal format="hidl" optional="false">
     <name>vendor.goodix.hardware.cap.biometrics.fingerprint</name>
-    <transport>hwbinder</transport>
     <version>2.1</version>
     <interface>
         <name>IGoodixFingerprintDaemon</name>
@@ -75,8 +74,8 @@
         <name>IHealth</name>
         <instance>default</instance>
     </interface>
-    </hal>
-    <hal format="hidl">
+    </hal> -->
+    <!-- <hal format="hidl" optional="false">
         <name>android.hardware.graphics.mapper</name>
         <version>2.1</version>
         <version>3.0</version>
@@ -85,14 +84,15 @@
             <name>IMapper</name>
             <instance>default</instance>
         </interface>
-    </hal>
-    <hal format="hidl">
+    </hal> -->
+    <!-- <hal format="hidl" optional="false">
     <name>android.hardware.graphics.allocator</name>
+    <version>2.0</version>
     <version>3.0</version>
     <version>4.0</version>
     <interface>
         <name>IAllocator</name>
         <instance>default</instance>
     </interface>
-    </hal>
+    </hal> -->
 </compatibility-matrix>
