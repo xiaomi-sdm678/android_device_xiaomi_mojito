@@ -130,8 +130,9 @@ vendor/lib/libaudio_log_utils.so
 vendor/lib64/hw/audio.primary.sm6150.so
 vendor/lib64/libaudio_log_utils.so
 
-# XXXX
+# Camera
 vendor/lib64/libwa_rtdof.so
+vendor/lib64/libwa_dof.so
 vendor/lib64/libarcsat.so
 vendor/lib64/libmiai_supernight.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
@@ -322,14 +323,26 @@ vendor/lib64/libXMFD_AgeGender.so
 vendor/lib64/lib_denoiser3.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libxmi_high_dynamic_range.so
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-external.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 system/system/lib/libcameraservice.so
+system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
 
 # Camera Arcsoft
 vendor/lib64/libarcsoft_beautyshot.so
