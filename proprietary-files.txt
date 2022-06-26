@@ -1,4 +1,4 @@
-# Unpinned blobs from mojito qssi-user 12 SKQ1.210908.001 V13.0.7.0.SKGMIXM release-keys
+# Unpinned blobs from mojito qssi-user 12 SKQ1.210908.001 V13.0.9.0.SKGMIXM release-keys
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
