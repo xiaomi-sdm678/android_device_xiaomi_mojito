@@ -59,4 +59,5 @@ debug.hwui.skia_atrace_enabled=false
 
 # Media
 av.offload.enable=true
-qcom.hw.aac.encoder=true
+qcom.hw.aac.encoder=
+mm.enable.smoothstreaming=true
