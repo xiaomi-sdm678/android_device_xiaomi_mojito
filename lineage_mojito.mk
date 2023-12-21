@@ -14,9 +14,6 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some LineageOS stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit Gapps
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
 PRODUCT_DEVICE := mojito
